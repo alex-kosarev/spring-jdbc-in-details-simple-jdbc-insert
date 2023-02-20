@@ -1,0 +1,6 @@
+spring:
+  flyway:
+    locations: classpath:db/migration/h2
+    schemas:
+      - public
+      - sandbox

@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:tc:postgresql:15:///?TC_DAEMON=true
+  flyway:
+    locations: classpath:db/migration/postgresql
